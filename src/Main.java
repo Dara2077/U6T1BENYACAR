@@ -45,21 +45,42 @@ public class Main {
 //            System.out.println(array3[i]);
 //        }
 
-        //Activity 5
-        String[] animals = new String[4];
-        for (int i = 0; i<=3; i ++){
-            System.out.println(animals[i]);
-        }
-        animals[0] = "dog";
-        animals[1] = "camel";
-        animals[2] = "aardvark";
-        animals[3] = "bunny";
+//        //Activity 5
+//        String[] animals = new String[4];
+//        for (int i = 0; i<=3; i ++){
+//            System.out.println(animals[i]);
+//        }
+//        animals[0] = "dog";
+//        animals[1] = "camel";
+//        animals[2] = "aardvark";
+//        animals[3] = "bunny";
+//
+//        for (int i = 0; i<=3; i ++){
+//            System.out.println(animals[i]);
+//        }
+//
+//        System.out.println(animals[3]);
+//        animals[2] = animals[2] + "s";
+//        System.out.println(animals[2]);
+//        System.out.println(animals.length);
+//        System.out.println(animals[2].length());
 
-        for (int i = 0; i<=3; i ++){
-            System.out.println(animals[i]);
-        }
+//        //Activity 7
+//        int[] ints1 = {2, 4, 6, 8, 10};
+//        int[] ints2 = ints1;
+//        ints2[3] = 15;
+//        System.out.println(ints1[3]);
+//        System.out.println(ints2[3]);
 
-        System.out.println(animals[3]);
+        //Activity 8
+        String[] myStrs = {"hi", "bye", "what", "purple"};
+        int arrLen = myStrs.length;
+        int strLen = myStrs[3].length();
+        System.out.println(arrLen + strLen);
+
+        String str = myStrs[2].substring(1, 3);
+        System.out.println(str);
+
 
     }
 }
